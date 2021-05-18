@@ -4,7 +4,9 @@ title: About me
 subtitle: QRZ de N2WU
 ---
 
+<p align = "center">
 ![](https://n2wu.files.wordpress.com/2019/10/crossedhandhelds.png?w=450)
+  </p>
 
 I'm a ham radio hobby scientist. I use this blog to update my technical projects and show some nontechnical outreach events my club, W2KGY, does over the years. I hope you are able to learn from my projects and even use them yourself.
 
