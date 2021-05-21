@@ -93,19 +93,19 @@ This is the decimal 10-bit decade counter. It very simply gives me an output on 
 ## Schematic
 
 Below you'll find the completed schematic on _Multisim_
-![Full Schematic](/assets/img/cw_schematic_full.png)
+![Full Schematic](/assets/img/cw_schematic_full.PNG)
 _Full Schematic_
 
 Now, I'll break it down with some explanation:
 
 ### Data Storage
 
-![Data Schematic](/assets/img/cw_schematic_storage.png)
+![Data Schematic](/assets/img/cw_schematic_storage.PNG)
 Data stored in 3 shift registers. It is either hardcoded with +5V (1) or GND (0). The CLK comes from the 555 timer.
 
 ### Increments and Multiplexing
 
-![Multiplexing](/assets/img/cw_schematic_multiplexing.png)
+![Multiplexing](/assets/img/cw_schematic_multiplex.PNG)
 Here you can see the decade counter (4017) fed to the LD input of the 4 shift registers. using an XOR gate. Further, you can see the JK Flip-flops with the 4027 to increment the binary counter on the 153.
 
 
@@ -131,5 +131,5 @@ Also, if I had more time I would 3D print a case, a stand, or something more pre
 
 ---
 
-_I hope you all enjoyed the move to the new website. I finally got it hosted using [https://www.n2wu.com](https://www.n2wu.com) so this will be the permanent solution for as far as I can see. I already love the customization, security, speed, and user optimization I see!_  
+_I hope you all enjoyed the move to the new website. I finally got it hosted using [https://www.n2wu.com](https://www.n2wu.com) so this will be the permanent solution for as far as I can see. I already love the customization, security, speed, and user optimization!_  
 _-N2WU_
