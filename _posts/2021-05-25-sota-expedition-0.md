@@ -3,7 +3,7 @@ title: "SOTA Expedition 0"
 date: "2021-05-25"
 categories:
   - "nontechnical"
-  tags:
+tags:
     - "amateur-radio"
     - "summits-on-the-air"
     - "hiking"
@@ -11,6 +11,7 @@ categories:
     - "morse-code"
     - "ham-radio"
     - "SOTA"
+    
 coverImage: "/assets/img/sota_1/flatiron.jpg"
 ---
 # Introduction
