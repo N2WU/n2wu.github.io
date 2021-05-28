@@ -1,82 +1,63 @@
 ---
-title: "SOTA Expedition 1"
-date: "2021-05-28"
+title: "SOTA Expedition 0"
+date: "2021-05-25"
 categories:
   - "nontechnical"
-tags:
-  - "amateur-radio"
-  - "summits-on-the-air"
-  - "hiking"
-  - "outdoors"
-  - "morse-code"
-  - "ham-radio"
-  - "SOTA"
-
+  tags:
+    - "amateur-radio"
+    - "summits-on-the-air"
+    - "hiking"
+    - "outdoors"
+    - "morse-code"
+    - "ham-radio"
+    - "SOTA"
 coverImage: "/assets/img/sota_1/flatiron.jpg"
 ---
 # Introduction
 
-I am glad to report my first successful SOTA activation of Green Mountain W0C/FR-085. In this post I will detail my summit up, my activation, and future plans. Lace up and continue reading!
+They always say a journey of 1,000 summits starts with a single misstep... I'm glad to share mine!
 
-![Title Image](/assets/img/sota_2/summit_name.jpg)
-_View from the top!_
+Today I'd like to share my first in a series of posts detailing my Summits-On-The-Air (SOTA) adventures. I call it "excursion 0" since I _didn't make any actual contacts_...
+
+Lace up, strap in, and continue reading!
+
+![Title Image](/assets/img/sota_1/flatiron.jpg)
+_View from the (almost) top!_
 
 # The Summit: Green Mountain
 
-[Green Mountain](https://summits.sota.org.uk/summit/W0C/FR-085) is a beautiful summit right in the municipality of Boulder. I took the **EM Greenman Trail** and option three on this [this post.](https://yourboulder.com/hike-boulder-green-mountain-summit/)
+I planned on traveling to Green Mountain, one of the tallest and easiest visible peaks in Boulder, CO. I parked at the bottom and prepared for the 2.5 mile summit up to **W0C/FR-085** but never actually made it up!
 
+[Green Mountain on SOTA](https://summits.sota.org.uk/summit/W0C/FR-085)
 
 # Equipment
 
-Like I said previously, I brought the following equipment:
+I will detail all of my SOTA gear in a future post. Just know that I brought water, a handheld TH-D72, my HF linked dipole, and an Elecraft KX2 (an _excellent_ piece of equipment may I add) all shoved into a 12lb backpack. There was one notable piece I forgot, however.
 
-1. An Elecraft KX2 with standard CW paddle
-2. A [5.2 Ah lithium-ion battery](https://power.tenergy.com/at-tenergy-li-ion-18650-11-1v-5200mah-rechargeable-battery-pack-w-pcb-3s2p-57-72wh-9a-rate/)
-3. An APRS-enabled TH-D72a (forgot I had the extremely low power option enabled)
-3. My favorite [antenna tuner](https://steadynet.com/emtech/zm2-kit-bnc-connectors)
-4. A [19-foot mast](https://tmastco.com/main/page_products_telescopic_poles.html)
-5. A [linked end-fed](https://qrpguys.com/qrpguys-end-fed-wire-antenna)
-6. A linked dipole for 10m,20m,40m
-7. 1L water, warm clothes, and gloves
-8. A notebook/pen for CW
-9. Several (40) feet of paracord in different lengths
+_I forgot my coax cable. I only realized that once I was at the top of the mountain. Even further, I was at the top of the wrong mountain..._
 
-The pack weighed probably about 12lbs. It fit nicely and weighed light enough for me to run for some portions.
+# Excursion to Flatiron / 2nd Peak
 
-![Equipment](/assets/img/sota_2/radios.jpg)
-_Equipment scattered at the top_
+I took a route you could only describe as "straight up" and got completely lost. There's no place better than the top, so I kept traveling up on my hands and knees. This image basically displays my route:
 
-# Excursion
+![Route](/assets/img/sota_1/route.png)
+_Dead-reckoned way up_
 
-I would be lying if I said the route wasn't tough! I definitely recommend keeping on the trail - much better than how I got lost previously. Great view of boulder the entire way up, and at the top!
+From the top of the Flatiron, I realized I was at the wrong summit and shot for the closest higher peak - a nearby unnammed peak lower than Green Mountain. I got here and connected with the trail I **should** have been on, then trekked down back to my car determined to try again.
 
-![View](/assets/img/sota_2/view.jpg)
-_View of Boulder from Green Mountain facing east_
+[Here's the choice of routes I took.](https://yourboulder.com/hike-boulder-green-mountain-summit/) I came down on EM Greenman trail.
 
-# Contacts
+# Consolation Prize and Park Operating
 
-I tried the end-fed, but didn't have 60ft on the summit to properly set it up. I instead went with the linked dipole and the antenna mast, mostly since I wanted to justify bringing it the whole summit. I decided to just fix the end wire to the ground since I was _relatively_ a few wavelengths above the ground.
+Just to verify my equipment _should_ have worked, I went to a nearby park for some informal POTA operating. I used a linked end-fed (blog post soon) strung up in a tree. What a view of what should have been!
 
-![Antenna](/assets/img/sota_2/antenna.jpg)
-_Dipole at the top. Many good questions about ham radio!_
+![Park](/assets/img/sota_1/fieldex.jpg)
+_View from the park_
 
-I felt bad for taking up part of the summit with my setup, but I did try to entertain those who looked interested. I usually reference **Independence Day** as a baseline!
+It turns out everything did, but I didn't make any contacts. Too much SNR at dusk with the shopping mall right next door...
+![PSK](/assets/img/sota_1/psk.png)
+_Reception via PSKReporter_
 
-## S2S with WV0X
+# Next _Steps_
 
-I heard Syzmon WV0X on simplex 2m. I managed to get him using just my rubber ducky! Overall I got 7 contacts. I especially was grateful for [David N0DET](qrz.com/db/n0det) who found me on simplex, then on CW.
-
-I did have to ignore someone who would not slow down CW. Pleas of QRS went ignored, and I was going 17 WPM!
-
-# Conclusion
-
-![View with antennas](/assets/img/sota_2/view_antenna.jpg)
-
-This hobby definitely allows for some fantastic pictures. I began the descent and felt pretty good, so I ran the way down. The backpack felt very light, so it is a winning combination for sure.
-
-![APRS](/assets/img/sota_2/aprs_descend.png)
-_APRS Descend_
-
-In the future (very soon) I will be activating CO013 and CO014 as a US Islands and POTA. Stay tuned!
-
-Additionally, I would love to include FT8 on my DXpeditions but can't justify bringing a laptop. I am searching around for Raspberry Pi setups, but cannot find anything elegant enough. I may try to code with the software in the future. 
+I re-summitted Green mountain the following day and had great success! I will make several posts soon on my successful summit, my antennas, and my equipment. Thanks for reading, and stay tuned!
