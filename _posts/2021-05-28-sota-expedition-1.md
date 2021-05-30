@@ -74,8 +74,8 @@ I did have to ignore someone who would not slow down CW. Pleas of QRS went ignor
 
 This hobby definitely allows for some fantastic pictures. I began the descent and felt pretty good, so I ran the way down. The backpack felt very light, so it is a winning combination for sure.
 
-![APRS](/assets/img/sota_2/aprs_descend.png)
-_APRS Descend_
+![APRS](/assets/img/sota_2/aprs_descent.png)
+_APRS Descent_
 
 In the future (very soon) I will be activating CO013 and CO014 as a US Islands and POTA. Stay tuned!
 
