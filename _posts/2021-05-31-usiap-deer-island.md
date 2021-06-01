@@ -53,7 +53,7 @@ The pack weighed probably about 12lbs. I crammed my radios into a ziploc bag, th
 
 I parked along the road somewhere and threw my gear down to the bay. I pushed off and kept rowing!
 
-![View](/assets/img/usiap_1/distance.png)
+![View](/assets/img/usiap_1/distance.PNG)
 _Distance_
 
 I arrived at the island and tried to set up my end-fed as usual. I quickly realized I was not alone! The island was home to [American kestrels](https://sites.google.com/a/bertoli.org/birds-of-colorado/raptors) and Canadian geese. They both were not a fan of me being there. Because of this, I decided not to throw my antenna extremely high into the trees - probably to my demise.
