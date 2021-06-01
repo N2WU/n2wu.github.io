@@ -57,8 +57,8 @@ It allowed for some great views!
 
 ![View](/assets/img/sota_2b/img_2.jpg)
 
-![View](/assets/img/sota_2/view.jpg)
-_View of Boulder from Green Mountain facing east_
+![View](/assets/img/sota_2b/view_2.jpg)
+_View northeast from the summit_
 
 I even had some curious visitors when I was up there:
 ![Dogs](/assets/img/sota_2b/dogs.jpg)
@@ -85,7 +85,7 @@ As I was up there, the weather started drastically improving. Blue skies on the 
 
 The descent was slippery, but now I could actually see the trail. On the way up, I saw the forest for the dirt.
 
-![APRS](/assets/img/sota_2/aprs_descent.PNG)
+![APRS](/assets/img/sota_2b/aprs_full.PNG)
 _APRS Descent_
 
 Overall this was a great activation and I hope to do many more!
