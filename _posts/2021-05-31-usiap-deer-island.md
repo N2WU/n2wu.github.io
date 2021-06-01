@@ -53,7 +53,7 @@ The pack weighed probably about 12lbs. I crammed my radios into a ziploc bag, th
 
 I parked along the road somewhere and threw my gear down to the bay. I pushed off and kept rowing!
 
-![View](/assets/img/usiap_1/distance.png)
+![View]<img src="/assets/img/usiap_1/distance.png" />
 _Distance_
 
 I arrived at the island and tried to set up my end-fed as usual. I quickly realized I was not alone! The island was home to [American kestrels](https://sites.google.com/a/bertoli.org/birds-of-colorado/raptors) and Canadian geese. They both were not a fan of me being there. Because of this, I decided not to throw my antenna extremely high into the trees - probably to my demise.
@@ -86,7 +86,7 @@ So I took one paddle every 5 or so seconds, and let the winds push me to shore. 
 
 # Conclusion
 
-![Beach](/assets/img/beach_2.jpg)
+![Beach](/assets/img/usiap_1/beach_2.jpg)
 _Beach_
 
 This was overall a great event. I never knew ham radio could be so extreme! It also highlighted some issues with my antenna setup - I never get good radiation out of the end-fed and should have improved my linked dipole. I am looking for better configurations for the two, so if you have any suggestions shoot them my way.
