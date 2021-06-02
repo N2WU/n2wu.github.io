@@ -91,4 +91,4 @@ _Beach_
 
 This was overall a great event. I never knew ham radio could be so extreme! It also highlighted some issues with my antenna setup - I never get good radiation out of the end-fed and should have improved my linked dipole. I am looking for better configurations for the two, so if you have any suggestions shoot them my way.
 
-_This is the first step in a long journey of US islands. Stay tuned for the [Hudson River Radio Relay](https://hudsonriverradiorelay.com/for-radio-amateurs.html) on June 11th when I qualify Constitution Island!_
+_This is the first step in a long journey of US islands. Stay tuned for the [Hudson River Radio Relay](https://hudsonriverradiorelay.com/for-radio-amateurs.html) on June 12th when I qualify Constitution Island!_
