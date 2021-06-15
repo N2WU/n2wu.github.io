@@ -65,10 +65,13 @@ _View of the End-Fed at the top_
 
 # Contacts
 
+I had no trouble getting CW contacts with the end-fed on 40m. With no service or spotting ability, I actually got 6 CW contacts within a half hour. An alligator jumped on to my frequencuy (all mouth and no ears) so I decided to SK. 
 
+I did hear a station in Denver on simplex, but could't call back. What a distance!
 
 
 # Conclusion
+I had some visitors at the descent!
+![Visitors](/assets/img/sota_4/goat.jpg)
 
-
-Overall this was a great activation and I hope to do many more!
+Overall this was a great activation and I hope to do many more. It was my last excursion in Boulder and a terrific 9,000ft summit.
