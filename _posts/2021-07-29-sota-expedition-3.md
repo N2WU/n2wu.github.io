@@ -24,7 +24,7 @@ _View from the side_
 
 # The Summit: Estes Cone
 
-[Estes Cone](https://summits.sota.org.uk/summit/W0C/FR-039) is a beautiful summit northwest of Boulder near Estes Park, CO in Roosevelt National Forest. It is a 4 mile out-and-back just breaking the treeline at 11,000ft. This was a well established trail with no bushwhacking required. The elevation becomes somewhat steep but isn't much worse than other area mountains, like Green Mountain. Being in the national forest along the path to *Longs Peak* means there are plenty of park rangers able to assist and help you on your trail.
+[Estes Cone](https://summits.sota.org.uk/summit/W0C/FR-039) is a beautiful summit northwest of Boulder near Estes Park, CO in Roosevelt National Forest. It is a 6 mile out-and-back just breaking the treeline at 11,000ft. This was a well established trail with no bushwhacking required. The elevation becomes somewhat steep but isn't much worse than other area mountains, like Green Mountain. Being in the national forest along the path to *Longs Peak* means there are plenty of park rangers able to assist and help you on your trail.
 
 
 
