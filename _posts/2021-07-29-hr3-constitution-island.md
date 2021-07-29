@@ -1,5 +1,5 @@
 ---
-title: "HR3 Constitution Island Qualification
+title: "HR3 Constitution Island Qualification"
 date: "2021-07-29"
 categories:
   - "nontechnical"
