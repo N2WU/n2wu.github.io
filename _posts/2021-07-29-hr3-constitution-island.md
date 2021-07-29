@@ -34,6 +34,7 @@ While I always enjoy "park-portable" operating, I sometimes wish there were more
 # Pictures
 
 ![Dipole Setup](/assets/img/hr3/dipole_setup.jpg)
+
 _Cadets and Stan KD2JEW erecting a Dipole_
 
 ![Cadet Operating](/assets/img/hr3/cadet_operating.jpg)
@@ -42,7 +43,7 @@ _Cadets operating FT8 using 100W and a buddipole_
 ![Operating](/assets/img/hr3/table_operating.jpg)
 _Stephen KJ5HY, Ben N2IAV, and Joe N6CL operating FT8 at our central TOC_
 
-#Conclusion
+# Conclusion
 
 Thanks again to Steve and the HVDN crew for organizing this event! We plan to use Constitution Island for many more events. I have my eye on some usma-specific special events too...
 
