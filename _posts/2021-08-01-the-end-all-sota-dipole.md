@@ -31,8 +31,8 @@ _My trusty steed. May she rest in peace._
 
 In the simplest terms possible (and please don't laugh), the linked doublet is about 30ft of 450 Ohm ladderline connected to roughly-estimated resonant 10,20, and 40m linked dipole lengths in a vee configuration fed to the balanced input on my tuner.
 
-Let me explain why this is a bad idea - theory curteousy of the brilliant[Rex KE6MT](https://www.ke6mt.us/)
-Doublets rely on a _velocity factor_ - while ground travels on one ladderline, the signal travels on the other. Doublets's velocity factor is influenced by frequency - LL lengths like 30ft are [terrible](https://kv5r.com/ham-radio/ladder-line/) for doublet antennas.
+Let me explain why this is a bad idea - theory curteousy of the brilliant [Rex KE6MT](https://www.ke6mt.us/).
+Doublets rely on a _velocity factor_ - while ground travels on one ladderline, the signal travels on the other. Doublet's velocity factor is influenced by frequency - LL lengths like 30ft are [terrible as proven here](https://kv5r.com/ham-radio/ladder-line/).
 
 Not only would my ladderline have to be linked in itself, but I chose the worst length for a single length of ladderline. No wonder I barely got Nevada...
 
@@ -70,7 +70,7 @@ I needed the following materials. I am not associated with any amazon links.
 3. 3 inches of 1.5" diam. PVC pipe
 4. Zip ties (20 to be safe) - the smaller, the better
 5. [BNC Chassis Mounts](https://www.amazon.com/dp/B07FB39S1L?psc=1&ref=ppx_yo2_dt_b_product_details)
-6. 1' x 1/2' Polycarbonate Sheet - $2 at a hardware storage
+6. 1' x 1/2' Polycarbonate Sheet - $2 at a hardware store
 7.  [FT 140-43 Toroid](https://www.amazon.com/Fair-Rite-Toroid-Core-FT140-43-Ferrite/dp/B0178IABXW/ref=pd_nav_hcs_rp_1/133-4007837-8913737?pd_rd_w=PP1tM&pf_rd_p=3eebbeb9-8158-4a79-b42b-433ba10b6d1c&pf_rd_r=330VQ5NA9SYYNWEGG9G2&pd_rd_r=626fe3af-9521-4bb6-87d3-45f5413646c9&pd_rd_wg=FsSZJ&pd_rd_i=B0178IABXW&psc=1#descriptionAndDetails)
 8. 4ft of 18-22 gauge speaker wire (two separate conductors) OR RG-58
 9. Shrink Tubing
@@ -157,7 +157,7 @@ Here's where you test your mettle _(and metal!)_. This can be an incredibly pain
 
 ## Field Deployment
 
-First, I was digging around for some rope and found 20lb-rated Kite String with a [winder]((https://www.prokitesusa.com/20lb-x-200ft-nylon-kite-line-w/-quickretrieve-kite-winder/). This little guy made my day. Here's how I deployed the antenna each time:
+First, I was digging around for some rope and found 20lb-rated Kite String with a [winder](https://www.prokitesusa.com/20lb-x-200ft-nylon-kite-line-w/-quickretrieve-kite-winder/). This little guy made my day. Here's how I deployed the antenna each time:
 
 1. Affix tossable weight (fishing lead, rock) to nylon string
 2. Chuck into tree, preferably 30ft tall
