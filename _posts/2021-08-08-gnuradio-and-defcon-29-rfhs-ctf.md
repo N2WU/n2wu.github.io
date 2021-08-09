@@ -26,7 +26,7 @@ Essentially for each stage of the [SDR ctf](https://github.com/rfhs/rfhs-wiki/wi
 
 I tried the morse challenge first since it seemed the most straightforward. The WiFi and World Wide Wardrive also seem promising. Below is the raw spectrum for my signal:
 
-![CW_Spectrum](/assets/img/defcon/spectrum.PNG)
+![CW_Spectrum](/assets/img/defcon/spectrum.png)
 
 And each transmission starts with this cool design in the waterfall:
 
@@ -60,7 +60,7 @@ I wasted quite a bit of time on this. Don't be like me. I was about to use MATLA
 
 Essentially to actually hear the morse code, I keyed a sine wave on and off. It's the same way it's generated! My flowgraph looks like this:
 
-![CW_Key_flow](/assets/img/defcon/cw_key_flow.PNG)
+![CW_Key_flow](/assets/img/defcon/cw_key_flow.png)
 
 My resulting time-domain wave looks like this with the binary bits (On/Off) overlayed to a sine wave (red
 
