@@ -33,9 +33,7 @@ I have the [new and improved N2WU SOTA Dipole](https://www.n2wu.com/2021-08-01-t
 
 1. An Elecraft KX2 with standard CW paddle
 2. A [5.2 Ah lithium-ion battery](https://power.tenergy.com/at-tenergy-li-ion-18650-11-1v-5200mah-rechargeable-battery-pack-w-pcb-3s2p-57-72wh-9a-rate/)
-//3. An APRS-enabled TH-D72a
 3. My favorite [antenna tuner](https://steadynet.com/emtech/zm2-kit-bnc-connectors)
-//4. A [19-foot mast](https://tmastco.com/main/page_products_telescopic_poles.html)
 5. The [N2WU SOTA Dipole](https://www.n2wu.com/2021-08-01-the-end-all-sota-dipole/)
 6. A topographic Map with compass
 7. 1L water, warm clothes, and gloves
@@ -51,7 +49,7 @@ _Gear shown at the top_
 # Excursion
 
 ![Antenna Branch](/assets/img/sota_5/tree.jpg)
-_Treetop at nearly 9,000ft!_
+
 
 The route is an easy 4-mile round trip. The sign at the bottom boasts a "1200ft" climb, but I doubt that.
 
