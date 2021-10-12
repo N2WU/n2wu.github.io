@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xml:lang="EN" xmlns="http://earth.google.com/kml/2.0">
+<Document xmlns="">
+<name>K2DSL ADIF TO KML</name>
+<Placemark>
+<name></name>
+<description>My Station</description>
+<visibility>1</visibility>
+<Style>
+<IconStyle>
+<Icon>
+<href>root://icons/palette-3.png</href>
+<x>224</x>
+<y>128</y>
+<w>32</w>
+<h>32</h>
+</Icon>
+</IconStyle>
+</Style>
+<Point>
+<extrude>1</extrude>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>-121.87500016667,46.937500416667,0</coordinates>
+</Point>
+</Placemark>		<Folder>
+<name>All</name>
+<open>0</open>
+<visibility>1</visibility>
+<Placemark>
+<name>W7GX</name>
+<description>Time=20211010 , Band=20M, Mode=CW</description>
+<visibility>1</visibility>
+<LookAt>
+<longitude>-123.12500016667</longitude>
+<latitude>44.02083375</latitude>
+<range>20000</range>
+<tilt>0</tilt>
+</LookAt>
+<Style>
+<IconStyle>
+<Icon>
+<href>root://icons/palette-3.png</href>
+<x>224</x>
+<y>128</y>
+<w>32</w>
+<h>32</h>
+</Icon>
+</IconStyle>
+</Style>
+<Point>
+<extrude>1</extrude>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>-123.12500016667,44.02083375,0</coordinates>
+</Point>
+</Placemark>
+</Folder>
+<Folder>
+<name>All (Lines)</name>
+<open>0</open>
+<visibility>1</visibility>
+<Placemark>
+<name>W7GX</name>
+<description>Time=20211010 , Band=20M, Mode=CW</description>
+<visibility>1</visibility>
+<Style>
+<LineStyle>
+// <color>7fffffff</color>
+<color>50000000</color>
+<width>1</width>
+</LineStyle>
+</Style>
+<LineString>
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<coordinates>-121.87500016667,46.937500416667,0 -123.12500016667,44.02083375,0</coordinates>
+</LineString>
+</Placemark>
+</Folder><Folder>
+<name>All</name>
+<open>0</open>
+<visibility>1</visibility>
+<Placemark>
+<name>AC7LA</name>
+<description>Time=20211010 , Band=20M, Mode=CW</description>
+<visibility>1</visibility>
+<LookAt>
+<longitude>-123.29166683333</longitude>
+<latitude>44.937500416667</latitude>
+<range>20000</range>
+<tilt>0</tilt>
+</LookAt>
+<Style>
+<IconStyle>
+<Icon>
+<href>root://icons/palette-3.png</href>
+<x>224</x>
+<y>128</y>
+<w>32</w>
+<h>32</h>
+</Icon>
+</IconStyle>
+</Style>
+<Point>
+<extrude>1</extrude>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>-123.29166683333,44.937500416667,0</coordinates>
+</Point>
+</Placemark>
+</Folder>
+<Folder>
+<name>All (Lines)</name>
+<open>0</open>
+<visibility>1</visibility>
+<Placemark>
+<name>AC7LA</name>
+<description>Time=20211010 , Band=20M, Mode=CW</description>
+<visibility>1</visibility>
+<Style>
+<LineStyle>
+// <color>7fffffff</color>
+<color>50000000</color>
+<width>1</width>
+</LineStyle>
+</Style>
+<LineString>
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<coordinates>-121.87500016667,46.937500416667,0 -123.29166683333,44.937500416667,0</coordinates>
+</LineString>
+</Placemark>
+</Folder><Folder>
+<name>All</name>
+<open>0</open>
+<visibility>1</visibility>
+<Placemark>
+<name>W0BET</name>
+<description>Time=20211010 , Band=20M, Mode=CW</description>
+<visibility>1</visibility>
+<LookAt>
+<longitude>-105.29166683333</longitude>
+<latitude>38.39583375</latitude>
+<range>20000</range>
+<tilt>0</tilt>
+</LookAt>
+<Style>
+<IconStyle>
+<Icon>
+<href>root://icons/palette-3.png</href>
+<x>224</x>
+<y>128</y>
+<w>32</w>
+<h>32</h>
+</Icon>
+</IconStyle>
+</Style>
+<Point>
+<extrude>1</extrude>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>-105.29166683333,38.39583375,0</coordinates>
+</Point>
+</Placemark>
+</Folder>
+<Folder>
+<name>All (Lines)</name>
+<open>0</open>
+<visibility>1</visibility>
+<Placemark>
+<name>W0BET</name>
+<description>Time=20211010 , Band=20M, Mode=CW</description>
+<visibility>1</visibility>
+<Style>
+<LineStyle>
+// <color>7fffffff</color>
+<color>50000000</color>
+<width>1</width>
+</LineStyle>
+</Style>
+<LineString>
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<coordinates>-121.87500016667,46.937500416667,0 -105.29166683333,38.39583375,0</coordinates>
+</LineString>
+</Placemark>
+</Folder><Folder>
+<name>All</name>
+<open>0</open>
+<visibility>1</visibility>
+<Placemark>
+<name>N6TEM</name>
+<description>Time=20211010 , Band=20M, Mode=CW</description>
+<visibility>1</visibility>
+<LookAt>
+<longitude>-116.62500016667</longitude>
+<latitude>33.604167083333</latitude>
+<range>20000</range>
+<tilt>0</tilt>
+</LookAt>
+<Style>
+<IconStyle>
+<Icon>
+<href>root://icons/palette-3.png</href>
+<x>224</x>
+<y>128</y>
+<w>32</w>
+<h>32</h>
+</Icon>
+</IconStyle>
+</Style>
+<Point>
+<extrude>1</extrude>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>-116.62500016667,33.604167083333,0</coordinates>
+</Point>
+</Placemark>
+</Folder>
+<Folder>
+<name>All (Lines)</name>
+<open>0</open>
+<visibility>1</visibility>
+<Placemark>
+<name>N6TEM</name>
+<description>Time=20211010 , Band=20M, Mode=CW</description>
+<visibility>1</visibility>
+<Style>
+<LineStyle>
+// <color>7fffffff</color>
+<color>50000000</color>
+<width>1</width>
+</LineStyle>
+</Style>
+<LineString>
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<coordinates>-121.87500016667,46.937500416667,0 -116.62500016667,33.604167083333,0</coordinates>
+</LineString>
+</Placemark>
+</Folder>
+</Document>
+</kml>
