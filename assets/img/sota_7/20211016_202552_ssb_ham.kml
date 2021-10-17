@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xml:lang="EN" xmlns="http://earth.google.com/kml/2.0">
+<Document xmlns="">
+<name>K2DSL ADIF TO KML</name>
+<Placemark>
+<name></name>
+<description>My Station</description>
+<visibility>1</visibility>
+<Style>
+<IconStyle>
+<Icon>
+<href>root://icons/palette-3.png</href>
+<x>224</x>
+<y>128</y>
+<w>32</w>
+<h>32</h>
+</Icon>
+</IconStyle>
+</Style>
+<Point>
+<extrude>1</extrude>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>-74.041666833333,41.39583375,0</coordinates>
+</Point>
+</Placemark>		<Folder>
+<name>All</name>
+<open>0</open>
+<visibility>1</visibility>
+<Placemark>
+<name>wb6pot</name>
+<description>Time=20211016 , Band=20M, Mode=SSB</description>
+<visibility>1</visibility>
+<LookAt>
+<longitude>-120.9583335</longitude>
+<latitude>39.062500416667</latitude>
+<range>20000</range>
+<tilt>0</tilt>
+</LookAt>
+<Style>
+<IconStyle>
+<Icon>
+<href>root://icons/palette-3.png</href>
+<x>224</x>
+<y>128</y>
+<w>32</w>
+<h>32</h>
+</Icon>
+</IconStyle>
+</Style>
+<Point>
+<extrude>1</extrude>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>-120.9583335,39.062500416667,0</coordinates>
+</Point>
+</Placemark>
+</Folder>
+<Folder>
+<name>All (Lines)</name>
+<open>0</open>
+<visibility>1</visibility>
+<Placemark>
+<name>wb6pot</name>
+<description>Time=20211016 , Band=20M, Mode=SSB</description>
+<visibility>1</visibility>
+<Style>
+<LineStyle>
+// <color>7fffffff</color>
+<color>50000000</color>
+<width>1</width>
+</LineStyle>
+</Style>
+<LineString>
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<coordinates>-74.041666833333,41.39583375,0 -120.9583335,39.062500416667,0</coordinates>
+</LineString>
+</Placemark>
+</Folder><Folder>
+<name>All</name>
+<open>0</open>
+<visibility>1</visibility>
+<Placemark>
+<name>w5ods</name>
+<description>Time=20211016 , Band=20M, Mode=SSB</description>
+<visibility>1</visibility>
+<LookAt>
+<longitude>-95.7083335</longitude>
+<latitude>36.062500416667</latitude>
+<range>20000</range>
+<tilt>0</tilt>
+</LookAt>
+<Style>
+<IconStyle>
+<Icon>
+<href>root://icons/palette-3.png</href>
+<x>224</x>
+<y>128</y>
+<w>32</w>
+<h>32</h>
+</Icon>
+</IconStyle>
+</Style>
+<Point>
+<extrude>1</extrude>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>-95.7083335,36.062500416667,0</coordinates>
+</Point>
+</Placemark>
+</Folder>
+<Folder>
+<name>All (Lines)</name>
+<open>0</open>
+<visibility>1</visibility>
+<Placemark>
+<name>w5ods</name>
+<description>Time=20211016 , Band=20M, Mode=SSB</description>
+<visibility>1</visibility>
+<Style>
+<LineStyle>
+// <color>7fffffff</color>
+<color>50000000</color>
+<width>1</width>
+</LineStyle>
+</Style>
+<LineString>
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<coordinates>-74.041666833333,41.39583375,0 -95.7083335,36.062500416667,0</coordinates>
+</LineString>
+</Placemark>
+</Folder><Folder>
+<name>All</name>
+<open>0</open>
+<visibility>1</visibility>
+<Placemark>
+<name>w2jmu</name>
+<description>Time=20211016 , Band=40M, Mode=SSB</description>
+<visibility>1</visibility>
+<LookAt>
+<longitude>-74.041666833333</longitude>
+<latitude>41.39583375</latitude>
+<range>20000</range>
+<tilt>0</tilt>
+</LookAt>
+<Style>
+<IconStyle>
+<Icon>
+<href>root://icons/palette-3.png</href>
+<x>224</x>
+<y>128</y>
+<w>32</w>
+<h>32</h>
+</Icon>
+</IconStyle>
+</Style>
+<Point>
+<extrude>1</extrude>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>-74.041666833333,41.39583375,0</coordinates>
+</Point>
+</Placemark>
+</Folder>
+<Folder>
+<name>All (Lines)</name>
+<open>0</open>
+<visibility>1</visibility>
+<Placemark>
+<name>w2jmu</name>
+<description>Time=20211016 , Band=40M, Mode=SSB</description>
+<visibility>1</visibility>
+<Style>
+<LineStyle>
+// <color>7fffffff</color>
+<color>50000000</color>
+<width>1</width>
+</LineStyle>
+</Style>
+<LineString>
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<coordinates>-74.041666833333,41.39583375,0 -74.041666833333,41.39583375,0</coordinates>
+</LineString>
+</Placemark>
+</Folder><Folder>
+<name>All</name>
+<open>0</open>
+<visibility>1</visibility>
+<Placemark>
+<name>kd2ude</name>
+<description>Time=20211016 , Band=40M, Mode=SSB</description>
+<visibility>1</visibility>
+<LookAt>
+<longitude>-73.875000166667</longitude>
+<latitude>41.562500416667</latitude>
+<range>20000</range>
+<tilt>0</tilt>
+</LookAt>
+<Style>
+<IconStyle>
+<Icon>
+<href>root://icons/palette-3.png</href>
+<x>224</x>
+<y>128</y>
+<w>32</w>
+<h>32</h>
+</Icon>
+</IconStyle>
+</Style>
+<Point>
+<extrude>1</extrude>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>-73.875000166667,41.562500416667,0</coordinates>
+</Point>
+</Placemark>
+</Folder>
+<Folder>
+<name>All (Lines)</name>
+<open>0</open>
+<visibility>1</visibility>
+<Placemark>
+<name>kd2ude</name>
+<description>Time=20211016 , Band=40M, Mode=SSB</description>
+<visibility>1</visibility>
+<Style>
+<LineStyle>
+// <color>7fffffff</color>
+<color>50000000</color>
+<width>1</width>
+</LineStyle>
+</Style>
+<LineString>
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<coordinates>-74.041666833333,41.39583375,0 -73.875000166667,41.562500416667,0</coordinates>
+</LineString>
+</Placemark>
+</Folder>
+</Document>
+</kml>
