@@ -53,7 +53,7 @@ a:focus {
   color: {{ site.hover-col | default: "#0085A1" }};
 }
 blockquote {
-  color: #808080;
+  color: #666666;
   font-style: italic;
 }
 blockquote p:first-child {
@@ -465,7 +465,7 @@ footer .footer-custom-content {
 }
 .post-preview .post-meta,
 .post-heading .post-meta {
-  color: #808080;
+  color: #666666;
   font-size: 1.125rem;
   font-style: italic;
   margin: 0 0 0.625rem;
@@ -552,12 +552,12 @@ footer .footer-custom-content {
 }
 
 .blog-tags span {
-  color: {{ site.text-col | default: "#404040" }};
+  color: {{ site.text-col | default: "#131313" }};
   opacity: 0.8;
 }
 
 .blog-tags a {
-  color: {{ site.text-col | default: "#404040" }};
+  color: {{ site.text-col | default: "#131313" }};
   text-decoration: none;
   padding: 0 0.3125rem;
   opacity: 0.8;
@@ -567,8 +567,8 @@ footer .footer-custom-content {
 
 .blog-tags a:hover {
   opacity: 1;
-  color: {{ site.text-col | default: "#404040" }};
-  border-color: {{ site.text-col | default: "#404040" }};
+  color: {{ site.text-col | default: "#131313" }};
+  border-color: {{ site.text-col | default: "#131313" }};
 }
 
 .post-preview .blog-tags {
@@ -601,7 +601,7 @@ footer .footer-custom-content {
 }
 
 #full-tags-list .tag-entry .entry-date {
-  color: #808080;
+  color: #666666;
   font-style: italic;
   font-size: 1rem;
 }
@@ -975,7 +975,7 @@ pre {
   max-width: 25%;
   border-width: 0.25rem;
   border-radius: 0.1875rem;
-  border-color: #808080;
+  border-color: #666666;
 }
 
 .blog-post blockquote {
