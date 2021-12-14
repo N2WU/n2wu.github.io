@@ -4,13 +4,13 @@ body {
   background-size: cover;
 }
 
-.row{
+.container-md{
 	background: rgba(255, 255, 255, 0.5);
 }
 
 /*
 
-.container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+.container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .row {
 	background: rgba(255, 255, 255, 0.5);
 }
 .post-preview, .post-title,
