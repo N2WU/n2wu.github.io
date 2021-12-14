@@ -53,7 +53,7 @@ a:focus {
   color: {{ site.hover-col | default: "#0085A1" }};
 }
 blockquote {
-  color: #666666;
+  color: #333333;
   font-style: italic;
 }
 blockquote p:first-child {
@@ -465,7 +465,7 @@ footer .footer-custom-content {
 }
 .post-preview .post-meta,
 .post-heading .post-meta {
-  color: #666666;
+  color: #333333;
   font-size: 1.125rem;
   font-style: italic;
   margin: 0 0 0.625rem;
@@ -601,7 +601,7 @@ footer .footer-custom-content {
 }
 
 #full-tags-list .tag-entry .entry-date {
-  color: #666666;
+  color: #333333;
   font-style: italic;
   font-size: 1rem;
 }
@@ -975,7 +975,7 @@ pre {
   max-width: 25%;
   border-width: 0.25rem;
   border-radius: 0.1875rem;
-  border-color: #666666;
+  border-color: #333333;
 }
 
 .blog-post blockquote {
