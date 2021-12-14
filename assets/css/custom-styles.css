@@ -3,9 +3,13 @@ body {
   background-repeat: repeat-x;
   background-size: cover;
 }
-p,h1,h2,h3,h4,h5,h6, {
+p,h1,h2,h3,h4,h5,h6 {
 	background: rgba(255, 255, 255, 0.5)
 }
 .post-preview .post-title .container-fluid .container-lg .container-md .container-sm .container-xl {
+	background: rgba(255, 255, 255, 0.5)
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
 	background: rgba(255, 255, 255, 0.5)
 }
