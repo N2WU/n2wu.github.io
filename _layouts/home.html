@@ -1,12 +1,13 @@
 ---
 layout: page
 ---
-
+<!DOCTYPE html>
+<html>
+<body id=#body>
 {{ content }}
 
 {% assign posts = paginator.posts | default: site.posts %}
-<html>
-<body id=#body>
+
 <div class="posts-list">
   {% for post in posts %}
   <article class="post-preview">
