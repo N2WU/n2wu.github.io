@@ -227,7 +227,7 @@ exclude:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
-#  - jekyll-feed
+  - jekyll-feed
 
 #feed:
 #  posts_limit: 10
