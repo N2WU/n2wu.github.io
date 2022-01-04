@@ -84,7 +84,7 @@ You'll accomplish your first mile on an unimproved road, then quickly switch to 
 ![Marker](/assets/img/sota_12/lipau_minisummit.jpg)
 _Lihau's minisummit_
 
-Continue trudging up past a fence (stay to the right and avoid the marked-off areas) then your route will eventually get physically easier as you transition off of brunch onto loose, sliding rock. **If you aren't an experienced scrambler, this is where you turn around.** Look off to your right - that's a sheer cliff face. Keep three points of contact and a low center of gravity until you reach a safer location. Eventually the hike stables out and reaches up to the summit, but I stopped within the zone before the summit. Due to the recent storms, the route past a certain point was extremely unsafe. The state government actually put an 8-foot fence up to prohibit further scrambling just due to safety.
+Continue trudging up past a fence (stay to the left and avoid the marked-off areas) then your route will eventually get physically easier as you transition off of brunch onto loose, sliding rock. **If you aren't an experienced scrambler, this is where you turn around.** Look off to your right - that's a sheer cliff face. Keep three points of contact and a low center of gravity until you reach a safer location. Eventually the hike stables out and reaches up to the summit, but I stopped within the zone before the summit. Due to the recent storms, the route past a certain point was extremely unsafe. The state government actually put an 8-foot fence up to prohibit further scrambling just due to safety.
 
 ![Summit](/assets/img/sota_12/lipau_summit.jpg)
 _Lihau from the a higher point up_
@@ -102,7 +102,7 @@ The main feature to the hike was St. Anthony's cross, but the trail continues fo
 After another 1/4 mile, you'll get to another thick 8ft fence. The property past this point is owned by the West Maui Forest Reserve. You are not allowed, *under any circumstances*, to trespass onto this property. I didn't feel like getting in trouble with the law, so I turned around. The trail did continue past the ridge but I wasn't risking 6 points over Hawaiian curses and ruining ecosystems.
 
 ![Sign](/assets/img/sota_12/008_trespass.jpg)
-_Kalipau Ridge's "No Trespassing Sign"_
+_Kapilau Ridge's "No Trespassing Sign"_
 
 # K6/MA-001: Red Hill (Haleakala)
 
