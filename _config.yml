@@ -15,6 +15,7 @@ author: Nolan N2WU
 
 navbar-links:
   About Me: "aboutme"
+  Subscribe: "https://www.n2wu.com/subscribe.html/"
   Resources:
     - Learn Morse: "http://www.justlearnmorsecode.com/"
     - Learn markdown: "https://www.markdowntutorial.com/"
