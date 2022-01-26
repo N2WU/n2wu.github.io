@@ -108,7 +108,7 @@ If you can't SMD Solder or can't purchase a board, there are other solutions ava
 
 ![DRA818V Setup](https://raw.githubusercontent.com/chokelive/dra818v_RPi/master/circuit/circuit.jpg)
 
-However, I would add another (BPF for 2M)[http://dj9kw.de/dj9kw/projekte/afu/2m_lowpass/lowpass.htm] if you aren't using the HamWing. They are incredibly noisy. Remember to cut your THT leads as short as possible to eliminate trace capacitance between parallel wires which could wreck an RF application.
+However, I would add another [BPF for 2M](http://dj9kw.de/dj9kw/projekte/afu/2m_lowpass/lowpass.htm] if you aren't using the HamWing. They are incredibly noisy. Remember to cut your THT leads as short as possible to eliminate trace capacitance between parallel wires which could wreck an RF application.
 
 Here's the HamWing in operation:
 
