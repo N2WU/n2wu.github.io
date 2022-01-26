@@ -225,6 +225,7 @@ I2C uses SDA/SCL and was a simple copy/paste.
         pressure = (pres / 4.0) / 1000.0
         presAltTemp = [pressure, altitude, cTemp]
         return presAltTemp
+        
 ## PiCam and Call Commands
 
 PiCam uses the legacy module to take a picture:
