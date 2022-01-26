@@ -12,12 +12,12 @@ tags:
   - "balloonsat"
   - "sstv"
 
-coverImage: "/assets/img/pi_sstv/cover.jpg"
+coverImage: "/assets/img/pi-sstv/breadboard.jpg"
 ---
 
 In preparation for the upcoming [February 2022 West Point BalloonSat Launch](https://fb.me/WestPointBalloonSat), I improved upon last year's [SSTV Module](https://www.n2wu.com/2021-05-07-weather-balloon-sstv-beacon/) to integrate actual flight pictures on the launch. With what may be the very first balloon module I've got working before the launch, here's a detailed build guide and do-it-yourself instructions. As always, my code is available on [github](https://github.com/N2WU/BSat_SSTV).
 
-![Title Image](/assets/img/sota_13/fridge.jpg)
+![Title Image](/assets/img/pi-sstv/breadboard.jpg)
 
 # Operation
 
