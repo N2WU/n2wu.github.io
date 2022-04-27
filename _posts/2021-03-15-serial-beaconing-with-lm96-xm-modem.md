@@ -1,5 +1,5 @@
 ---
-title: "Phase Synchronization for Ettus X310""
+title: "Phase Synchronization for Ettus X310"
 date: "2021-03-15"
 categories:
   - "technical"
