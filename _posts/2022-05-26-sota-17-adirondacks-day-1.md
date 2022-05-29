@@ -45,7 +45,7 @@ _Starting from the Rooster Comb Trailhead with Caleb KD2VTB_
 
 This was a 3-full-day backpacking trip. I used [Caltopo](https://caltopo.com) to map out our daily travel and calculate our elevation change. In total we had _12,000ft_ of elevation over three days!
 
-![Caltopo Elevation Profile](/asses/img/sota_adk/caltopo_profile.PNG)
+![Caltopo Elevation Profile](/assets/img/sota_adk/caltopo_profile.PNG)
 
 Each of the summits is reachable by a NY DEC trail, but don't let the word "Trail" confuse you. I rate the first day of travel at a solid class 3 using the [Yosemite Decimal System](https://en.wikipedia.org/wiki/Yosemite_Decimal_System).
 Meaning, _"Scrambling with increased exposure. Handholds are necessary. A rope could be carried. Falls could easily be fatal."_ .
@@ -95,6 +95,7 @@ Unfortunately the TH-D72 will have to disappear soon as I had to return it to th
 My contacts weren't as glamorous as I had hoped on day 1. I had to keep to VHF on LWJ but could branch out more on Gothics after I fixed my antenna (a loose screw in the case - needs more loctite!)
 
 ## Gothics Contacts
+
 | Callsign     | Band     | Time | Location |
 |--------------|-----------|------------|----|
 | F4WBN | 40M CW | 1757/1810 | France |
