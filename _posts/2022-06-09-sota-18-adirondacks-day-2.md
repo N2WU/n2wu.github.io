@@ -21,7 +21,7 @@ In the next few posts, I'll be detailing my recent 3-day excursion to the Adiron
 
 # The Summits
 
-While the High Peaks has [several key summits](https://www.adirondack.net/hiking/high-peaks/), only a few make the cut for a qualifying SOTA summit. The ham summits conquered on Day 1 were:
+While the High Peaks has [several key summits](https://www.adirondack.net/hiking/high-peaks/), only a few make the cut for a qualifying SOTA summit. The ham summits conquered on Day 2 were:
 
 1. [Basin Mountain W2/GA-371](https://summits.sota.org.uk/summit/W2/GA-371)
 2. [Mount Haystack W2/GA-361](https://summits.sota.org.uk/summit/W2/GA-361)
