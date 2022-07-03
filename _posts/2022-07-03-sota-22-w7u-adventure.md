@@ -1,6 +1,6 @@
 ---
 title: "SOTA 22: W7U Adventure"
-date: "2022-07-04"
+date: "2022-07-03"
 categories:
   - "nontechnical"
 tags:
@@ -12,7 +12,7 @@ tags:
   - "ham-radio"
   - "SOTA"
 
-coverImage: "/assets/img/sota_21/garnet_3.jpg"
+coverImage: "/assets/img/sota_22/jacobs_2.jpg"
 ---
 
 This past weekend I took a long trip into the Lone Peak Wilderness SE of Salt Lake City, Utah. I'm happy to report 2 new qualifications and 4 total activations over a 2-day backpacking trip. I'll detail the route, contacts, and mountaineering tips along the way.
