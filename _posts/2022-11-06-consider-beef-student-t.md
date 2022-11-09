@@ -8,6 +8,7 @@ tags:
   - "electrical engineering"
 
 coverImage: ""
+use_math: true
 ---
 
 I heard an interesting statistical example in class the other day and wanted to do a deep dive into it. Bear with me and explore the wonders of ground beef through the student-t distribution.
@@ -49,6 +50,7 @@ The best resource I found for beef measuring was [this video](https://youtu.be/K
 The method for grinding is called the [Pearson Square](https://www.cheesescience.org/pearson-square.html) which is pretty common in dairy and wine science. Butchers take a higher fat meat and combine it with a lower fat meat to get the target percentage. This would assume that the _cuts themselves_ have an intrinsic fat content, which is a little bit of a letdown.
 
 ![Penn State's Fat Measuring](\assets\img\beef\PSU_FatContent.PNG)
+
 _Image from the PSU Video showing separated fat. Looks like my attempt at taco meat or bolognese._
 
 All this to say, you really can't measure the sample fat content of a given ground beef product. But what happens when you take many samples?
@@ -68,6 +70,7 @@ This has less to do with the pieces of ground beef themselves but more with the 
 Besides, you should be [grinding your own meat](https://www.youtube.com/watch?v=LCkPKbmoncA). (Right after the video ends, he asys to grind it yourself).
 
 ![GeorgeForeman](\assets\img\beef\GeorgeForeman.png)
+
 _An option to the sample mean_
 
 Contuining with the math...
@@ -134,7 +137,9 @@ With $t_{\alpha,v} = 6.314$ from a t-distribution lookup table with $n = 2$. I'm
 My interval becomes:
 
 $$ 0.85 \pm 6.314 \frac{0.05}{2} $$
+
 or
+
 $$[0.6268, 1.0732]$$
 
 So to be quite honest I have no idea what I'm buying. I could be buying 107% lean meat, or 63%. But what if I keep buying, assume the same variances, and try for a more accurate estimate?
@@ -143,7 +148,8 @@ So to be quite honest I have no idea what I'm buying. I could be buying 107% lea
 
 The student-t distribution changes shape as you increase the sample sizes:
 
-!(Student T PDF)[/assets/img/beef/student_t_pdf.png]
+![Student T PDF](/assets/img/beef/student_t_pdf.png)
+
 _Student T PDF from Wikipedia_
 
 If you crunch the numbers, the furthest $t_{\alpha,v}$ point with a 90% interval is 1.645. This makes the maximum interval for 85% $[ 0.7918    0.9082]$. This doesn't mean the sample you just got contains anywhere from 79 to 91% ground beef; rather it says _the true percetage of meat in 85% ground beef lies between 79% to 91%_. 
