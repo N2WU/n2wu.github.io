@@ -15,6 +15,7 @@ tags:
   - "electrical-engineering"
 
 coverImage: "/assets/img/sota_ant/cover.png"
+use_math: true
 ---
 
 After a few more summits, I've decided my SOTA getup needs serious work. The amateur radio community largely acts on instinct and legend, so I'd figure I actually do the math in creating an ultimate SOTA antenna.
