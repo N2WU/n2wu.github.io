@@ -55,8 +55,6 @@ _Image from the PSU Video showing separated fat. Looks like my attempt at taco m
 
 All this to say, you really can't measure the sample fat content of a given ground beef product. But what happens when you take many samples?
 
-%BMI measurement
-
 ## Sampling characteristics
 
 This has less to do with the pieces of ground beef themselves but more with the characteristics of taking multiple samples of meat. Let me sum up the findings so far:
