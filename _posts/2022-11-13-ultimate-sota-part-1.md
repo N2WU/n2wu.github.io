@@ -49,11 +49,11 @@ What does this antenna actually look like? I'm going to say a **single-band, hal
 
 ## Defense
 
-I know operators with multi-band-hopper-balun-h-network-end-fed-traps are arming themselves with pitchforks at this very moment. I would too, considering I built my own [end-fed]() not too long ago, and have a [1.2 SWR dipole]() in the backup gear bag. I've tried quite a few approaches, but the single-band dipole is **the** way to go. 
+I know operators with multi-band-hopper-balun-h-network-end-fed-traps are arming themselves with pitchforks at this very moment. I would too, considering I built my own [end-fed](https://www.n2wu.com/2022-01-08-2021-odds-and-ends/) not too long ago, and have a [1.2 SWR dipole](https://www.n2wu.com/2021-08-01-the-end-all-sota-dipole/) in the backup gear bag. I've tried quite a few approaches, but the single-band dipole is **the** way to go. 
 
 I cannot explain how often I've waited for contacts on summits in thunderstorms, high wind, and miserable conditions while I read around of 100s of contacts other operators' experiences. I've had to schedule or spot nearly every contact pushing 10W with the KX2 on CW. It's pitiful, really. I need to trust my equipment on long hauls and need to enjoy setting it up each time - there is nothing simpler than a fine-tuned resonant single-element dipole.
 
-I know mechanical linkages are a thing on [multi-band dipoles](). But they get snagged. I almost exlusively operate on 20M unless I've had a long day and am operating closer to sunset, and find that I want something to **work every time.** If that means one frequency, so be it. The efficency of a single resonant contact will net me more contacts than a poorly designed double-band system. 
+I know mechanical linkages are a thing on [multi-band dipoles](https://www.sotabeams.co.uk/two-band-portable-dipole-antenna-system-band-hopper-ii/). But they get snagged. I almost exlusively operate on 20M unless I've had a long day and am operating closer to sunset, and find that I want something to **work every time.** If that means one frequency, so be it. The efficency of a single resonant contact will net me more contacts than a poorly designed double-band system. 
 
 With the way the solar cycle looks and the normal schedule of a mountaineer (off the summit by 12pm) 20M is my frequency of choice.
 
@@ -75,7 +75,7 @@ So, without further ado, the humble coax cable.
 
 The biggest reason _not_ to use coax is weight. It gets tangled if not coiled properly, and requires that a mast setup have both a **masthead** and **cable** weighing on the fiberglass mast to pull it down. 
 
-Remember our coax length will be a maximum of 40 feet. I've never seen hikeable masts longer than 30ft, and mine cones in [20 ft]().
+Remember our coax length will be a maximum of 40 feet. I've never seen hikeable masts longer than 30ft, and mine comes in [20 ft](https://www.n2wu.com/2022-01-08-2021-odds-and-ends/).
 
 ## Types of Coaxial Cable
 
