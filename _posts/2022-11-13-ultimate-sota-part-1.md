@@ -97,7 +97,7 @@ RG-174 is the standard for short-distance SMA connections because of its thin, f
 1. Impedance: 50 Ohms
 2. Db/100ft: < 8.4 (this [source](http://www.w1npp.org/events/2010/2010-F~1/ANTENNAS/WIRE/020203~1.PDF) gives 4.54 dB)
 4. Propagation Velocity: 66%
-5: Weight: **13.38 g/m**
+5. Weight: **13.38 g/m**
 
 Careful to consider that RG174 drastically increases in Db loss/ft as frequency is increased; hence why it's not often available. RG-174 is rare to find in long lengths with BNC connectors, so most hams never bother.
 
@@ -118,7 +118,7 @@ RG-316 is often used for short-haul distances as well. Here's its [specs](https:
 1. Impedance: 50 Ohms
 2. Db/100ft: 7.5 dB
 4. Propagation Velocity: 69%
-5: Weight: **10 g/m**
+5. Weight: **10 g/m**
 
 It is lighter with less loss. However, RG-316 is more rigid than RG-174 and doesn't coil well, from my experiences. Cost seems to be about the same.
 
@@ -148,7 +148,7 @@ The ideal return loss is infinite. It can be neatly described as the ratio of [i
 
 $$
  \text{Return Loss} = (-) 10 \log{\frac{\text{P_i}}{P_r}}
-  $$
+$$
 
 ## Insertion Loss
 
@@ -158,7 +158,7 @@ It is described as the ratio between transmitted and received power. It should b
 
 $$
  \text{Insertion Loss} = (-) 10 \log{\frac{\text{P_t}}{P_r}} 
- $$
+$$
 
 These two losses don't describe two halves of a whole, but feature the major points in microwave theory.
 

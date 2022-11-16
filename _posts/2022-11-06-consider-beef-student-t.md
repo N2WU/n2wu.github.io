@@ -89,19 +89,19 @@ Finding the variance is just as easy, but includes a [Bessel-corrected]https://e
 
 $$
  S^2 = \frac{1}{n-1} \sum_{i=1}^{n} (X_i - \bar{X})^2 
- $$
+$$
 
 Simply taking the difference between the mean over the sample variance is still random with expected mean 0 and variance 1:
 
 $$
  \frac{\bar{X} - \mu}{\sigma / \sqrt{n}} 
- $$
+$$
 
 Replacing $\sigma$ with $S$, since it describes the sample instead of the population 
 
 $$
  \frac{\bar{X} - \mu}{\S / \sqrt{n}} 
- $$
+$$
 
 Take a look at that expression. $\mu$ is our only unknown, since we cant measure the true lean mean percentage in ground beef. If you separate the numerator and denominator both are independent - variation in the sample lean percentage does not affect the variance. To prove this, the covariance finds:
 
