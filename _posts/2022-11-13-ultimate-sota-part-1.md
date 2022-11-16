@@ -147,7 +147,7 @@ Return loss is caused by impedance mismatch. Your radio is designed for 50 ohms.
 The ideal return loss is infinite. It can be neatly described as the ratio of [incident power to reflected power](https://en.wikipedia.org/wiki/Return_loss), meaning how much power is delivered to the system versus how much is returned. Often return loss will appear as negative - this is just a convention.
 
 $$
- \text{Return Loss} = (-) 10 \log{\frac{\text{P_i}}{P_r}}
+\text{Return Loss} = (-) 10 \log{\frac{\text{P_i}}{P_r}}
 $$
 
 ## Insertion Loss
@@ -157,7 +157,7 @@ Return loss describes errors with reflected waves. But some losses are unprevent
 It is described as the ratio between transmitted and received power. It should be as low as possible.
 
 $$
- \text{Insertion Loss} = (-) 10 \log{\frac{\text{P_t}}{P_r}} 
+\text{Insertion Loss} = (-) 10 \log{\frac{\text{P_t}}{P_r}} 
 $$
 
 These two losses don't describe two halves of a whole, but feature the major points in microwave theory.

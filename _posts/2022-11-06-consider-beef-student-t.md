@@ -82,32 +82,34 @@ First, since the population is large, is is normally distributed with $X \sim \m
 This shows taking each value and finding the mean is:
 
 $$
- \bar{X} = \frac{1}{n} \sum_{i=1}^{n} X_i 
+\bar{X} = \frac{1}{n} \sum_{i=1}^{n} X_i 
 $$
 
 Finding the variance is just as easy, but includes a [Bessel-corrected]https://en.wikipedia.org/wiki/Bessel%27s_correction) (just go with me on this) sample variance:
 
 $$
- S^2 = \frac{1}{n-1} \sum_{i=1}^{n} (X_i - \bar{X})^2 
+S^2 = \frac{1}{n-1} \sum_{i=1}^{n} (X_i - \bar{X})^2 
 $$
 
 Simply taking the difference between the mean over the sample variance is still random with expected mean 0 and variance 1:
 
 $$
- \frac{\bar{X} - \mu}{\sigma / \sqrt{n}} 
+\frac{\bar{X} - \mu}{\sigma / \sqrt{n}} 
 $$
 
 Replacing $\sigma$ with $S$, since it describes the sample instead of the population 
 
 $$
- \frac{\bar{X} - \mu}{\S / \sqrt{n}} 
+\frac{\bar{X} - \mu}{\S / \sqrt{n}} 
 $$
 
 Take a look at that expression. $\mu$ is our only unknown, since we cant measure the true lean mean percentage in ground beef. If you separate the numerator and denominator both are independent - variation in the sample lean percentage does not affect the variance. To prove this, the covariance finds:
 
 $$
 Cov(\bar{X}_i, X_i - \bar{X}) = \frac{\sum{(\bar{X}_i - \bar{X})*(X_i - \bar{X} - \bar{X}_i + \bar{X})}}{N-1}
+$$
 
+$$
 Cov(\bar{X}_i, X_i - \bar{X}) = 0
 $$
 
