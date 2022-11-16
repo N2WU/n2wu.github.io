@@ -83,27 +83,35 @@ First, since the population is large, is is normally distributed with $X \sim \m
 
 This shows taking each value and finding the mean is:
 
-$$ \bar{X} = \frac{1}{n} \sum_{i=1}^{n} X_i $$
+$$
+ \bar{X} = \frac{1}{n} \sum_{i=1}^{n} X_i 
+$$
 
 Finding the variance is just as easy, but includes a [Bessel-corrected]https://en.wikipedia.org/wiki/Bessel%27s_correction) (just go with me on this) sample variance:
 
-$$ S^2 = \frac{1}{n-1} \sum_{i=1}^{n} (X_i - \bar{X})^2 $$
+$$
+ S^2 = \frac{1}{n-1} \sum_{i=1}^{n} (X_i - \bar{X})^2 
+ $$
 
 Simply taking the difference between the mean over the sample variance is still random with expected mean 0 and variance 1:
 
-$$ \frac{\bar{X} - \mu}{\sigma / \sqrt{n}} $$
+$$
+ \frac{\bar{X} - \mu}{\sigma / \sqrt{n}} 
+ $$
 
 Replacing $\sigma$ with $S$, since it describes the sample instead of the population 
 
-$$ \frac{\bar{X} - \mu}{\S / \sqrt{n}} $$
+$$
+ \frac{\bar{X} - \mu}{\S / \sqrt{n}} 
+ $$
 
 Take a look at that expression. $\mu$ is our only unknown, since we cant measure the true lean mean percentage in ground beef. If you separate the numerator and denominator both are independent - variation in the sample lean percentage does not affect the variance. To prove this, the covariance finds:
 
-```math
+$$
 Cov(\bar{X}_i, X_i - \bar{X}) = \frac{\sum{(\bar{X}_i - \bar{X})*(X_i - \bar{X} - \bar{X}_i + \bar{X})}}{N-1}
 
 Cov(\bar{X}_i, X_i - \bar{X}) = 0
-```
+$$
 
 Or, you could remember that $\bar{X}_i$ and  $X_i - \bar{X}$ are both linear combinations of indepdent, identically distributed (iid) random variables. They both come from the population mean (iid) and are linear combinations so they still remain iid.
 
@@ -122,7 +130,9 @@ Many more pages of theory later arrives at the **Student-T Table** given _Confid
 
 The confidence interval is then
 
-$$\bar{X_n} \pm t_{\alpha,v} \frac{S_n}{\sqrt{n}} $$
+$$
+\bar{X_n} \pm t_{\alpha,v} \frac{S_n}{\sqrt{n}} 
+$$
 
 # Theoretical Application
 
@@ -130,17 +140,23 @@ _Author's note: I'm very close to testing this theory myself but I grind my own 
 
 I go to the supermarket. For me, it's Stop and Shop. I buy my first ground beef package (85%, for my bolognese), but want to be confident in the quality of pre-ground beef I'm buying. So following the equation:
 
-$$\bar{X_n} \pm t_{\alpha,v} \frac{S_n}{\sqrt{n}} $$
+$$
+\bar{X_n} \pm t_{\alpha,v} \frac{S_n}{\sqrt{n}} 
+$$
 
 With $t_{\alpha,v} = 6.314$ from a t-distribution lookup table with $n = 2$. I'm assuming the variance is 5% since ground beef is graded at 5% intervals - with my small amount of samples that is theoretically the highest it could go.
 
 My interval becomes:
 
-$$ 0.85 \pm 6.314 \frac{0.05}{2} $$
+$$ 
+0.85 \pm 6.314 \frac{0.05}{2} 
+$$
 
 or
 
-$$[0.6268, 1.0732]$$
+$$
+[0.6268, 1.0732]
+$$
 
 So to be quite honest I have no idea what I'm buying. I could be buying 107% lean meat, or 63%. But what if I keep buying, assume the same variances, and try for a more accurate estimate?
 
