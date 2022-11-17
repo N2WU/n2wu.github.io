@@ -147,7 +147,7 @@ With $t_{\alpha,v} = 6.314$ from a t-distribution lookup table with $n = 2$. I'm
 
 My interval becomes:
 
-$
+
 $0.85 \pm 6.314 \frac{0.05}{2} $
 
 
