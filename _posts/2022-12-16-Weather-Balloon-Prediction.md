@@ -46,7 +46,7 @@ I'm going to take directly from [this website]() as it has a straightforward app
 
 Take this 1-d position equation:
 
-$ x = x_0 + v_0 \delta t + \frac{1}{2} a \delta t^2 $
+$ x = x_0 + v_0 \Delta t + \frac{1}{2} a \Delta t^2 $
 
 Where:
 
@@ -54,7 +54,7 @@ Where:
 - $x_0$ is the initial position
 - $v_0$ is the initial velocity
 - $a$ is the acceleration
-- $\delta t$ is the time interval
+- $\Delta t$ is the time interval
 
 This can be applied to three dimensions as well, but I'll keep it in 1D to avoid overcomplicating.
 
@@ -72,19 +72,19 @@ Let's say our position isn't changing, but we are still getting variation for ea
 
 Generally to find the average position we can just take the average:
 
-$\hat{x_{n,n}} = \frac{1}{n} \Sigma{i=1}{n} (z_i)$ 
+$\hat{x}_{n,n} = \frac{1}{n} \Sigma{i=1}^n (z_i)$ 
 
-Here, $\hat{x_{n,n}}$ is our estimation, $n$ is the index of measurement, and $z_i$ is the measurement.
+Here, $\hat{x}_{n,n}$ is our estimation, $n$ is the index of measurement, and $z_i$ is the measurement.
 
 The next position will probably depend more on its most recent position than its long-past positions, right? After some more derivation (available [here](https://www.kalmanfilter.net/alphabeta.html)), we get:
 
-$\hat{x_{n,n}} = \hat{x_{n,n-1}} + \frac{1}{n} (z_n - \hat{x_{n,n-1}})$
+$\hat{x}_{n,n} = \hat{x}_{n,n-1} + \frac{1}{n} (z_n - \hat{x}_{n,n-1})$
 
 Which shows the estimation at state $n-1$ is based on the measurement at $n$. In english terms:
 
 ![StateUpdate](/assets/img/kalman/ex1_stateUpdate.png)
 
-That $\frac{1}{n}$ is important. It is the _Kalman Gain_, $K_n$, and changes as $n$ changes. It is the "factor" from the image above, and specific to our example. If we increase n (more measurements or time), then the $(z_n - \hat{x_{n,n-1}})$ term will have a smaller weight.
+That $\frac{1}{n}$ is important. It is the _Kalman Gain_, $K_n$, and changes as $n$ changes. It is the "factor" from the image above, and specific to our example. If we increase n (more measurements or time), then the $(z_n - \hat{x}_{n,n-1})$ term will have a smaller weight.
 
 This equation also relies on an initial guess, which may be difficult for a turbulent balloon.
 
@@ -98,11 +98,11 @@ Becker gives two equations for position and velocity based on the state update e
 
 Position:
 
-$\hat{x_{n,n}} = \hat{x_{n,n-1}} + \alpha (z_n - \hat{x_{n,n-1}})$
+$\hat{x}_{n,n} = \hat{x}_{n,n-1} + \alpha (z_n - \hat{x}_{n,n-1})$
 
-Velocity ($\hat{\dot{x_{n,n}}} = v$, the derivative of position)
+Velocity ($\hat{\dot{x}}_{n,n} = v$, the derivative of position)
 
-$\hat{\dot{x_{n,n}}} = \hat{\dot{x_{n,n}}} + \beta (\frac{z_n - \hat{x_{n,n-1}}}{\delta t})$
+$\hat{\dot{x}}_{n,n} = \hat{\dot{x}}_{n,n} + \beta (\frac{z_n - \hat{x}_{n,n-1}}{\Delta t})$
 
 The values for $\alpha$ and $\beta$ depend on the ability of the measuring software. Becker explains that high-performace equipment results in a high $\alpha$ and $\beta$, almost as a "faith factor."
 
@@ -136,12 +136,12 @@ I'm still following along with [Becker's Website](https://www.kalmanfilter.net/b
 
 He presents a general matrix equation for the state equation:
 
-$\hat{x_{n+1,n}} = \boldsymbol{F \hat{x_{n,n}}} + \boldsymbol{G u_n} + \boldsymbol{w_n}$
+$\boldsymbol{\hat{x}_{n+1,n}} = \boldsymbol{F \hat{x_{n,n}}} + \boldsymbol{G u_n} + \boldsymbol{w_n}$
 
 This is all very exciting. Definitions:
 
-- $\boldsymbol{\hat{x_{n+1,n}}}$ is the prediction of the future state (like future position)
-- $\boldsymbol{\hat{x_{n,n}}}$ is the current prediction
+- $\boldsymbol{\hat{x}_{n+1,n}}$ is the prediction of the future state (like future position)
+- $\boldsymbol{\hat{x}_{n,n}}$ is the current prediction
 - $\boldsymbol{u_n}$ is a control variable - like windspeed or pressure
 - $\boldsymbol{w_n}$ is the noise that affects the measurement
 - $\boldsymbol{F}$ is the state transmition matrix
