@@ -93,7 +93,7 @@ With the previous statement, I then wonder what meaningful information the first
 
 # Next Steps
 
-This work will go in two directions. First, I'll be using 2 dimensions to estimate the [XY-positon]() and possile landing site of the balloon. There is some more complicated matrix math involved since both x and y have their respective velocities.
+This work will go in two directions. First, I'll be using 2 dimensions to estimate the [XY-positon](https://www.kalmanfilter.net/kalmanmulti.html) and possile landing site of the balloon. There is some more complicated matrix math involved since both x and y have their respective velocities.
 
 Next, after some discussions with colleagues I'm wondering if the kalman filter can anticipate an event like the burst. We know it's going to pop past a certain altitude; is the descent some faster multiple (5x, etc) of the ascent? Can we use a different model for the descent? Does the entire altitude follow some function?
 
