@@ -30,8 +30,8 @@ Be warned of some statistics ahead.
 
 The filter is initialized with the following variables:
 
-1. Initial estimate $\hat{y}[-1\textbar-1]$
-2. Intial error estimate covariance $R_{\tilde{y}}[-1\textbar-1]$
+1. Initial estimate $\hat{y}[-1\vert-1]$
+2. Intial error estimate covariance $R_{\tilde{y}}[-1\vert-1]$
 
 These estimates can be generalized to the following, respectively:
 
@@ -52,16 +52,16 @@ We are predicting $y[n]$ but are given $x[n]$ as measurements. Based on the data
 
 The filter predicts the following values:
 
-1. $\hat{y}[n\textbarn-1], the state ahead
-2. $R_{\tilde{y}}[n\textbarn-1], the error covariance ahead
+1. $\hat{y}[n\vert n-1]$, the state ahead
+2. $R_{\tilde{y}}[n\vert n-1]$, the error covariance ahead
 
 ## Correction
 
 The filter computes the following values to correct its prediction:
 
 1. $K[n]$, the Kalman Gain
-2. $\hat{y}[n\textbarn], The signal update with measurement $x[n]$
-3. $R_{\tilde{y}}[n\textbarn], the updated error covariance
+2. $\hat{y}[n\vert n], The signal update with measurement $x[n]$
+3. $R_{\tilde{y}}[n\vert n]$, the updated error covariance
 
 The predict and correct steps run continuously until a linear estimation is made (see "predictive model") or until one estimation _after_ measurements run out (think about it for a second).
 
