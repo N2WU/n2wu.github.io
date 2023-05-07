@@ -60,7 +60,7 @@ The filter predicts the following values:
 The filter computes the following values to correct its prediction:
 
 1. $K[n]$, the Kalman Gain
-2. $\hat{y}[n\vert n], The signal update with measurement $x[n]$
+2. $\hat{y}[n\vert n]$, The signal update with measurement $x[n]$
 3. $R_{\tilde{y}}[n\vert n]$, the updated error covariance
 
 The predict and correct steps run continuously until a linear estimation is made (see "predictive model") or until one estimation _after_ measurements run out (think about it for a second).
