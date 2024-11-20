@@ -17,7 +17,7 @@ I recently acquired a neat bluetooth thermal printer. With some python and web s
 
 ## Background
 
-The [Bluebamboo](https://www.manualslib.com/manual/1357742/Blue-Bamboo-P25m.html) P25 printer is a defunct bluetooth serial-controlled batter-powered thermal printer. This is pretty handy - no wires, cables, or plugs needed. There are two documentation manuals online - a [quick start](https://www.manualslib.com/manual/1357742/Blue-Bamboo-P25m.html) and a [development manual](https://www.manualslib.com/manual/790801/Blue-Bamboo-P25.html#product-P25-M), both of which will be necessary to write your own code.
+The [Bluebamboo](https://www.manualslib.com/manual/1357742/Blue-Bamboo-P25m.html) P25 printer is a defunct bluetooth serial-controlled battery-powered thermal printer. This is pretty handy - no wires, cables, or plugs needed. There are two documentation manuals online - a [quick start](https://www.manualslib.com/manual/1357742/Blue-Bamboo-P25m.html) and a [development manual](https://www.manualslib.com/manual/790801/Blue-Bamboo-P25.html#product-P25-M), both of which will be necessary to write your own code.
 
 You should be able to find these on ebay, when they pop up, for about $25-30. I wouldn't try to get a model that doesn't look exactly like this one, lest you have to find a more defunct manual. You should just install the battery and charge before turning it on to see a solid green light.
 
