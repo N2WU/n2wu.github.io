@@ -12,7 +12,7 @@ coverImage:
 use_math: false
 ---
 
-First post of many for the implementation of an [acoustic digital signal processing toolbox](https://github.com/N2WU/c_acoustic_dsp/tree/main).
+First post of many for the implementation of an acoustic digital signal processing toolbox.
 
 # Introduction
 
@@ -22,7 +22,7 @@ However, I can avoid interfacing with software-defined radios saving me time (so
 
 I've previously worked with Acoustic DSP in [python](https://github.com/N2WU/sc-adaptive-beamforming). Unfortunately, the value added by complex matrix operations seemed to be diminished by the immense compute power in the python environment. I'm hoping that using C++ will allow me to perform efficient calculations and even compile them onto microcontrollers for future projects.
 
-So I've decided to make a sort of standard toolbox for learning about digital signal operations. Whether it's data encoding, modulation, or multichannel processing, I think it will be a fruitful and fun environment with an easily implementable framework.
+So I've decided to make a sort of [standard toolbox](https://github.com/N2WU/c_acoustic_dsp/tree/main.) for learning about digital signal operations. Whether it's data encoding, modulation, or multichannel processing, I think it will be a fruitful and fun environment with an easily implementable framework.
 
 Really, that's the scope - to create functions in a drag-and-drop fashion so I can compare methods pretty standard. If I wanted to see the BER of a QPSK signal with turbo coding versus a BPSK signal with Reed-Solomon, it should be fast, elegant, and presentable.
 
