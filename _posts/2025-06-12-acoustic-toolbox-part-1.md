@@ -12,7 +12,7 @@ coverImage:
 use_math: false
 ---
 
-First post of many for the implementation of an acoustic digital signal processing toolbox.
+First post of many for the implementation of an [acoustic digital signal processing toolbox] (https://github.com/N2WU/c_acoustic_dsp/tree/main).
 
 # Introduction
 
