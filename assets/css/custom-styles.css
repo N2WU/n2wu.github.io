@@ -1,7 +1,8 @@
 #body {
-  background-image: url('https://www.n2wu.com/assets/img/ko.jpg');
+  /*background-image: url('https://www.n2wu.com/assets/img/ko.jpg');
   background-repeat: repeat-x;
-  background-size: cover;
+  background-size: cover; */
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .container-md{
