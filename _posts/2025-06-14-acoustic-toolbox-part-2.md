@@ -73,13 +73,13 @@ From here, I upsample my **data_len** bits to match the **Number of Samples per 
 
 Next, we have to look at the actual equation for a passband acoustic signal to see how to implement it in code. Our data symbols can be shown as:
 
-$$ u(t) = \Sum d(n)g(t-nT) $$
+$u(t) = \Sum d(n)g(t-nT)$
 
-Where $$g(t)$$ is a pulse between $$t \set [0,T]$$
+Where $g(t)$ is a pulse between $t \set [0,T]$
 
-The transmitted signal $$s(t)$$ is shown as:
+The transmitted signal $s(t)$ is shown as:
 
-$$s(t) = \Real\{u(t)e^{j2\pi f_c t}\}$$
+$s(t) = \Real\{u(t)e^{j2\pi f_c t}\}$
 
 So in python/numpy, we can show this operation as:
 
