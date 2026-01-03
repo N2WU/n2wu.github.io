@@ -8,7 +8,7 @@ tags:
   - "programming"
   - "radio"
   - "acoustic"
-coverImage: "assets\img\drone_detect\s_theta_15db_1path.png"
+coverImage: "/assets/img/drone_detect/s_theta_15db_1path.png"
 use_math: true
 ---
 
@@ -25,6 +25,9 @@ Drones emit, of course, a distinct sound when they fly. This article attempts to
 Acoustic beamforming is widely similar to traditional RF beamforming techniques. However, acoustic waves are pressure waves affected by more multipath, doppler, and scattering impairements than line-of-sight waves with a shorter propagation distance.
 
 Most of this exploratory cUAS research was constructed off of many projects in acoustic wireless _communication_. Just like radios may use a QPSK signal to communicate across channels with scattering and multipath, acoustic devices can employ a QPSK signal in audible range (sometimes a carrier frequency of 5kHz and a bit rate of 1 bit per second) to communicate across open air or water. A fun demonstration of OFDM to transmit an image across open-air (like using the microphone and speakers of your computer simultaneously) can be found [here](https://github.com/N2WU/audio_ofdm). My master's thesis's python code in this topic (single-carrier acoustic beamforming) can be found [here](https://github.com/N2WU/sc-adaptive-beamforming/tree/main/final_code) - it probably needs a whole post (read, website) of its own.
+
+An example of simulated acoustic QPSK:
+![Acoustic QPSK](../assets/img/drone_detect/qpsk_ex.PNG)
 
 A comprehensive review of acoustic channel characterization can be found [here](https://www.mit.edu/~millitsa/resources/pdfs/nafplio.pdf).
 
@@ -43,6 +46,9 @@ The drone signal in audacity is shown below. It looks like a typical periodic si
 There are many different techniques for beamforming. Most commonly, an antenna array consists of several linearly-spaced omnidirectional antennas designed for an optimal carrier frequency $f_c$ with a distance between elements $d_0$. This distance is also a factor of wavelength using the equation $d_\lambda = \frac{f_c d_0}{c}$ where $c$ is the wavespeed in a propagation medium - for air and EM waves, this is the speed of light; for acoustic signals in open air, this is 340 m/s.
 
 I set up my simulation using a delay-and-sum geometric approach. I make a coordinate plane with my antenna array (number of receiver antennas n_rx) centered at the origin; then, I place my signal at a coordinate point away from the receiver.
+
+And in the acoustic world, there actually are linear antenna arrays composed of microphones, that look like this:
+![16-element Microphone Array](../assets/img/drone_detect/mic_array.PNG)
 
 This only matters to determine direction. I am varying the SNR of the test manually, so I am not subjecting my incident sound wave to propagation path loss. 20 dB from the UAS is 20 dB at the receiver, whether it is 1 meter or 100 meters away. My coordinate plane looks like the following for the simulation:
 
@@ -102,4 +108,6 @@ This is a very rough outline for further improvements. Mainly I will add:
 4. More support for other beamforming methods, in case one is better than the current method
 5. Analysis for other drone signals - there are thousands available in the dataset.
 
-I've linked the code above. I encourage you to download and play with the code - see what happens when you vary the sampling rate, element spacing, drone signal, SNR, or introduce a different analysis tool.
+This can also definitely be done in the real world. A high-quality microphone is inexpensive [online](https://www.amazon.com/Dreokee-Conference-Microphone-3-5mm-Desktop/dp/B086WHD3CX?crid=R7CSC3ARIJ4E&dib=eyJ2IjoiMSJ9.ABUb22B4g2biiCnnb9fPep3phVEeXNeQzyHtN1-tBVsKIOVGDT2gem3ZdchpKiVO9Q3llKQJhmrcKCMI7njPW16KTc3vYEG7kdBUyQM-li9Nq-KYn0v6yU5KHJyF6ImBrbkfQ73ITVA4O2-awvTxvbc8zmqeuhl5SHzD4ALhHmO_DK-Bj3ozvbOxQs9DjLQFrd8eCAQ1FpiZTBK12_SvKqDL8zMraNY-TKVA8-wOxmE.V8jtnEEV8Qe1GmirG1wMHdETQSsDG6m6_XcES5S_m0g&dib_tag=se&keywords=conference+microphone&qid=1767473608&sprefix=conference+mic%2Caps%2C418&sr=8-8) and completely independent of operating system, unlike software-defined radio. I interface with them directly using the sounddevice library on python or [RTAudio in C++](./2025-06-12-acoustic-toolbox-part-1.md).
+
+I've linked the code above. I encourage you to download and play with the code - see what happens when you vary the sampling rate, element spacing, drone signal, SNR, or introduce a different (Machine learning, beamforming) analysis tool.
