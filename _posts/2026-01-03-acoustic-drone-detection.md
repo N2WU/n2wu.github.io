@@ -27,6 +27,7 @@ Acoustic beamforming is widely similar to traditional RF beamforming techniques.
 Most of this exploratory cUAS research was constructed off of many projects in acoustic wireless _communication_. Just like radios may use a QPSK signal to communicate across channels with scattering and multipath, acoustic devices can employ a QPSK signal in audible range (sometimes a carrier frequency of 5kHz and a bit rate of 1 bit per second) to communicate across open air or water. A fun demonstration of OFDM to transmit an image across open-air (like using the microphone and speakers of your computer simultaneously) can be found [here](https://github.com/N2WU/audio_ofdm). My master's thesis's python code in this topic (single-carrier acoustic beamforming) can be found [here](https://github.com/N2WU/sc-adaptive-beamforming/tree/main/final_code) - it probably needs a whole post (read, website) of its own.
 
 An example of simulated acoustic QPSK:
+
 ![Acoustic QPSK](../assets/img/drone_detect/qpsk_ex.PNG)
 
 A comprehensive review of acoustic channel characterization can be found [here](https://www.mit.edu/~millitsa/resources/pdfs/nafplio.pdf).
@@ -48,6 +49,7 @@ There are many different techniques for beamforming. Most commonly, an antenna a
 I set up my simulation using a delay-and-sum geometric approach. I make a coordinate plane with my antenna array (number of receiver antennas n_rx) centered at the origin; then, I place my signal at a coordinate point away from the receiver.
 
 And in the acoustic world, there actually are linear antenna arrays composed of microphones, that look like this:
+
 ![16-element Microphone Array](../assets/img/drone_detect/mic_array.PNG)
 
 This only matters to determine direction. I am varying the SNR of the test manually, so I am not subjecting my incident sound wave to propagation path loss. 20 dB from the UAS is 20 dB at the receiver, whether it is 1 meter or 100 meters away. My coordinate plane looks like the following for the simulation:
@@ -71,7 +73,7 @@ After the power graph is generated, angle estimation is easily calculated by cho
 
 The code for this simulation is available [here](https://github.com/N2WU/python-acoustic-cuas). To begin, I first loaded a .wav file with a known drone signal and normalized the audio to be within -1 and 1. Using scipy, the read function also gave me a sampling frequency for the read audio. This sampling frequency determined the sampling frequency of my detector.
 
-Performing the FFT of the signal reveals peaks near 2kHz, meaning a sampling frequency of ~5kHz will be able to detect this signal.
+Performing the FFT of the signal reveals peaks near 5kHz, meaning a sampling frequency of ~15kHz will be able to detect this signal.
 
 ![FFT of signal](../assets/img/drone_detect/fft_drone.png)
 
@@ -88,7 +90,7 @@ I find the angle and apply beamformer weights for each receiver $w_k(\theta)$. F
 
 1. Perform geometric simulation (as shown above)
 2. Find the $S(\theta)$ function
-3. Estimate the angle $\hat(\theta)$ for the function
+3. Estimate the angle $\hat{\theta}$ for the function
 
 # Results
 
